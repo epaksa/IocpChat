@@ -1,0 +1,193 @@
+[Info] NetworkController::InitWinsock()
+[Info] NetworkController::CreateListenSocket()
+[Info] NetworkController::Bind()
+[Info] NetworkController::StartListening()
+[Info] IocpController::CreateIocpPort()
+[Info] Start CreateThreadPool()
+[Info] Finished CreateThreadPool()
+[Info] IocpThread::StartThread() - Started, thread(12020)
+[Info] IocpThread::StartThread() - Started, thread(4584)
+[Info] IocpThread::StartThread() - Started, thread(8656)
+[Info] IocpThread::StartThread() - Started, thread(864)
+[Info] IocpThread::StartThread() - Started, thread(1092)
+[Info] IocpThread::StartThread() - Started, thread(11220)
+[Info] Starting accept()
+[Info] IocpThread::StartThread() - Started, thread(8476)
+[Info] accepted!! - client(312) / IP : 127.0.0.1 / Port : 56491
+[Info] accepted!! - client(324) / IP : 127.0.0.1 / Port : 56492
+[Info] accepted!! - client(328) / IP : 127.0.0.1 / Port : 56490
+[Info] accepted!! - client(336) / IP : 127.0.0.1 / Port : 56493
+[Info] packet received from client(336) / thread id : 8476 / msg : message from client 6 / count : 1
+[Info] accepted!! - client(332) / IP : 127.0.0.1 / Port : 56494
+[Info] accepted!! - client(352) / IP : 127.0.0.1 / Port : 56495
+[Info] accepted!! - client(368) / IP : 127.0.0.1 / Port : 56496
+[Info] accepted!! - client(372) / IP : 127.0.0.1 / Port : 56497
+[Info] packet received from client(324) / thread id : 864 / msg : message from client 4 / count : 1
+[Info] packet received from client(352) / thread id : 1092 / msg : message from client 7 / count : 1
+[Info] packet sent to client(336) / thread id : 11220 / msg : message from client 6 / count : 1
+[Info] packet received from client(368) / thread id : 8476 / msg : message from client 3 / count : 1
+[Info] packet sent to client(324) / thread id : 1092 / msg : message from client 4 / count : 1
+[Info] packet sent to client(352) / thread id : 11220 / msg : message from client 7 / count : 1
+[Info] packet sent to client(368) / thread id : 1092 / msg : message from client 3 / count : 1
+[Info] packet received from client(324) / thread id : 1092 / msg : message from client 4 / count : 2
+[Info] packet sent to client(324) / thread id : 11220 / msg : message from client 4 / count : 2
+[Info] packet received from client(372) / thread id : 11220 / msg : message from client 2 / count : 1
+[Info] packet sent to client(372) / thread id : 1092 / msg : message from client 2 / count : 1
+[Info] packet received from client(312) / thread id : 1092 / msg : message from client 5 / count : 1
+[Info] packet received from client(324) / thread id : 11220 / msg : message from client 4 / count : 3
+[Info] packet sent to client(312) / thread id : 11220 / msg : message from client 5 / count : 1
+[Info] packet received from client(352) / thread id : 11220 / msg : message from client 7 / count : 2
+[Info] packet sent to client(352) / thread id : 1092 / msg : message from client 7 / count : 2
+[Info] packet sent to client(324) / thread id : 8476 / msg : message from client 4 / count : 3
+[Info] packet received from client(332) / thread id : 8476 / msg : message from client 1 / count : 1
+[Info] packet sent to client(332) / thread id : 1092 / msg : message from client 1 / count : 1
+[Info] packet received from client(324) / thread id : 1092 / msg : message from client 4 / count : 4
+[Info] packet sent to client(324) / thread id : 8476 / msg : message from client 4 / count : 4
+[Info] packet received from client(368) / thread id : 8476 / msg : message from client 3 / count : 2
+[Info] packet sent to client(368) / thread id : 1092 / msg : message from client 3 / count : 2
+[Info] packet received from client(336) / thread id : 1092 / msg : message from client 6 / count : 2
+[Info] packet sent to client(336) / thread id : 8476 / msg : message from client 6 / count : 2
+[Info] packet received from client(312) / thread id : 8476 / msg : message from client 5 / count : 2
+[Info] packet sent to client(312) / thread id : 1092 / msg : message from client 5 / count : 2
+[Info] packet received from client(352) / thread id : 1092 / msg : message from client 7 / count : 3
+[Info] packet sent to client(352) / thread id : 8476 / msg : message from client 7 / count : 3
+[Info] packet received from client(328) / thread id : 8476 / msg : message from client 8 / count : 1
+[Info] packet sent to client(328) / thread id : 1092 / msg : message from client 8 / count : 1
+[Info] packet received from client(372) / thread id : 1092 / msg : message from client 2 / count : 2
+[Info] packet sent to client(372) / thread id : 8476 / msg : message from client 2 / count : 2
+[Info] packet received from client(332) / thread id : 8476 / msg : message from client 1 / count : 2
+[Info] packet sent to client(332) / thread id : 1092 / msg : message from client 1 / count : 2
+[Info] packet received from client(332) / thread id : 1092 / msg : message from client 1 / count : 3
+[Info] packet sent to client(332) / thread id : 8476 / msg : message from client 1 / count : 3
+[Info] packet received from client(328) / thread id : 8476 / msg : message from client 8 / count : 2
+[Info] packet sent to client(328) / thread id : 1092 / msg : message from client 8 / count : 2
+[Info] packet received from client(372) / thread id : 1092 / msg : message from client 2 / count : 3
+[Info] packet sent to client(372) / thread id : 8476 / msg : message from client 2 / count : 3
+[Info] packet received from client(372) / thread id : 8476 / msg : message from client 2 / count : 4
+[Info] packet sent to client(372) / thread id : 1092 / msg : message from client 2 / count : 4
+[Info] packet received from client(312) / thread id : 1092 / msg : message from client 5 / count : 3
+[Info] packet sent to client(312) / thread id : 8476 / msg : message from client 5 / count : 3
+[Info] packet received from client(368) / thread id : 8476 / msg : message from client 3 / count : 3
+[Info] packet sent to client(368) / thread id : 1092 / msg : message from client 3 / count : 3
+[Info] packet received from client(336) / thread id : 1092 / msg : message from client 6 / count : 3
+[Info] packet sent to client(336) / thread id : 8476 / msg : message from client 6 / count : 3
+[Info] packet received from client(352) / thread id : 1092 / msg : message from client 7 / count : 4
+[Info] packet sent to client(352) / thread id : 8476 / msg : message from client 7 / count : 4
+[Info] packet received from client(324) / thread id : 8476 / msg : message from client 4 / count : 5
+[Info] packet sent to client(324) / thread id : 1092 / msg : message from client 4 / count : 5
+[Info] packet received from client(328) / thread id : 1092 / msg : message from client 8 / count : 3
+[Info] packet sent to client(328) / thread id : 8476 / msg : message from client 8 / count : 3
+[Info] packet received from client(328) / thread id : 8476 / msg : message from client 8 / count : 4
+[Info] packet sent to client(328) / thread id : 1092 / msg : message from client 8 / count : 4
+[Info] packet received from client(332) / thread id : 1092 / msg : message from client 1 / count : 4
+[Info] packet sent to client(332) / thread id : 8476 / msg : message from client 1 / count : 4
+[Info] packet received from client(336) / thread id : 8476 / msg : message from client 6 / count : 4
+[Info] packet sent to client(336) / thread id : 1092 / msg : message from client 6 / count : 4
+[Info] packet received from client(352) / thread id : 1092 / msg : message from client 7 / count : 5
+[Info] packet sent to client(352) / thread id : 8476 / msg : message from client 7 / count : 5
+[Info] packet received from client(324) / thread id : 8476 / msg : message from client 4 / count : 6
+[Info] packet sent to client(324) / thread id : 1092 / msg : message from client 4 / count : 6
+[Info] packet received from client(372) / thread id : 1092 / msg : message from client 2 / count : 5
+[Info] packet sent to client(372) / thread id : 8476 / msg : message from client 2 / count : 5
+[Info] packet received from client(368) / thread id : 8476 / msg : message from client 3 / count : 4
+[Info] packet sent to client(368) / thread id : 1092 / msg : message from client 3 / count : 4
+[Info] packet received from client(312) / thread id : 1092 / msg : message from client 5 / count : 4
+[Info] packet sent to client(312) / thread id : 8476 / msg : message from client 5 / count : 4
+[Info] packet received from client(352) / thread id : 8476 / msg : message from client 7 / count : 6
+[Info] packet sent to client(352) / thread id : 1092 / msg : message from client 7 / count : 6
+[Info] packet received from client(328) / thread id : 1092 / msg : message from client 8 / count : 5
+[Info] packet sent to client(328) / thread id : 8476 / msg : message from client 8 / count : 5
+[Info] packet received from client(336) / thread id : 8476 / msg : message from client 6 / count : 5
+[Info] packet sent to client(336) / thread id : 1092 / msg : message from client 6 / count : 5
+[Info] packet received from client(324) / thread id : 1092 / msg : message from client 4 / count : 7
+[Info] packet sent to client(324) / thread id : 8476 / msg : message from client 4 / count : 7
+[Info] packet received from client(328) / thread id : 8476 / msg : message from client 8 / count : 6
+[Info] packet sent to client(328) / thread id : 1092 / msg : message from client 8 / count : 6
+[Info] packet received from client(332) / thread id : 1092 / msg : message from client 1 / count : 5
+[Info] packet sent to client(332) / thread id : 8476 / msg : message from client 1 / count : 5
+[Info] packet received from client(368) / thread id : 1092 / msg : message from client 3 / count : 5
+[Info] packet sent to client(368) / thread id : 8476 / msg : message from client 3 / count : 5
+[Info] packet received from client(332) / thread id : 8476 / msg : message from client 1 / count : 6
+[Info] packet sent to client(332) / thread id : 1092 / msg : message from client 1 / count : 6
+[Info] packet received from client(332) / thread id : 1092 / msg : message from client 1 / count : 7
+[Info] packet sent to client(332) / thread id : 8476 / msg : message from client 1 / count : 7
+[Info] packet received from client(368) / thread id : 8476 / msg : message from client 3 / count : 6
+[Info] packet sent to client(368) / thread id : 1092 / msg : message from client 3 / count : 6
+[Info] packet received from client(336) / thread id : 1092 / msg : message from client 6 / count : 6
+[Info] packet sent to client(336) / thread id : 8476 / msg : message from client 6 / count : 6
+[Info] packet received from client(352) / thread id : 8476 / msg : message from client 7 / count : 7
+[Info] packet sent to client(352) / thread id : 1092 / msg : message from client 7 / count : 7
+[Info] packet received from client(324) / thread id : 1092 / msg : message from client 4 / count : 8
+[Info] packet sent to client(324) / thread id : 8476 / msg : message from client 4 / count : 8
+[Info] packet received from client(312) / thread id : 8476 / msg : message from client 5 / count : 5
+[Info] packet sent to client(312) / thread id : 1092 / msg : message from client 5 / count : 5
+[Info] packet received from client(328) / thread id : 1092 / msg : message from client 8 / count : 7
+[Info] packet sent to client(328) / thread id : 8476 / msg : message from client 8 / count : 7
+[Info] packet received from client(372) / thread id : 8476 / msg : message from client 2 / count : 6
+[Info] packet sent to client(372) / thread id : 1092 / msg : message from client 2 / count : 6
+[Info] packet received from client(368) / thread id : 1092 / msg : message from client 3 / count : 7
+[Info] packet sent to client(368) / thread id : 8476 / msg : message from client 3 / count : 7
+[Info] packet received from client(312) / thread id : 8476 / msg : message from client 5 / count : 6
+[Info] packet sent to client(312) / thread id : 1092 / msg : message from client 5 / count : 6
+[Info] packet received from client(328) / thread id : 1092 / msg : message from client 8 / count : 8
+[Info] packet sent to client(328) / thread id : 8476 / msg : message from client 8 / count : 8
+[Info] packet received from client(332) / thread id : 8476 / msg : message from client 1 / count : 8
+[Info] packet sent to client(332) / thread id : 1092 / msg : message from client 1 / count : 8
+[Info] packet received from client(336) / thread id : 1092 / msg : message from client 6 / count : 7
+[Info] packet sent to client(336) / thread id : 8476 / msg : message from client 6 / count : 7
+[Info] packet received from client(352) / thread id : 8476 / msg : message from client 7 / count : 8
+[Info] packet sent to client(352) / thread id : 1092 / msg : message from client 7 / count : 8
+[Info] packet received from client(324) / thread id : 1092 / msg : message from client 4 / count : 9
+[Info] packet sent to client(324) / thread id : 8476 / msg : message from client 4 / count : 9
+[Info] packet received from client(332) / thread id : 8476 / msg : message from client 1 / count : 9
+[Info] packet sent to client(332) / thread id : 1092 / msg : message from client 1 / count : 9
+[Info] packet received from client(336) / thread id : 1092 / msg : message from client 6 / count : 8
+[Info] packet sent to client(336) / thread id : 8476 / msg : message from client 6 / count : 8
+[Info] packet received from client(312) / thread id : 8476 / msg : message from client 5 / count : 7
+[Info] packet sent to client(312) / thread id : 1092 / msg : message from client 5 / count : 7
+[Info] packet received from client(328) / thread id : 1092 / msg : message from client 8 / count : 9
+[Info] packet sent to client(328) / thread id : 8476 / msg : message from client 8 / count : 9
+[Info] packet received from client(372) / thread id : 8476 / msg : message from client 2 / count : 7
+[Info] packet sent to client(372) / thread id : 1092 / msg : message from client 2 / count : 7
+[Info] packet received from client(368) / thread id : 1092 / msg : message from client 3 / count : 8
+[Info] packet sent to client(368) / thread id : 8476 / msg : message from client 3 / count : 8
+[Info] packet received from client(352) / thread id : 8476 / msg : message from client 7 / count : 9
+[Info] packet sent to client(352) / thread id : 1092 / msg : message from client 7 / count : 9
+[Info] packet received from client(324) / thread id : 1092 / msg : message from client 4 / count : 10
+[Info] packet sent to client(324) / thread id : 8476 / msg : message from client 4 / count : 10
+[Info] packet received from client(332) / thread id : 8476 / msg : message from client 1 / count : 10
+[Info] packet sent to client(332) / thread id : 1092 / msg : message from client 1 / count : 10
+[Info] packet received from client(336) / thread id : 1092 / msg : message from client 6 / count : 9
+[Info] packet sent to client(336) / thread id : 8476 / msg : message from client 6 / count : 9
+[Info] packet received from client(312) / thread id : 8476 / msg : message from client 5 / count : 8
+[Info] packet sent to client(312) / thread id : 1092 / msg : message from client 5 / count : 8
+[Info] packet received from client(328) / thread id : 1092 / msg : message from client 8 / count : 10
+[Info] packet sent to client(328) / thread id : 8476 / msg : message from client 8 / count : 10
+[Info] packet received from client(372) / thread id : 8476 / msg : message from client 2 / count : 8
+[Info] packet sent to client(372) / thread id : 1092 / msg : message from client 2 / count : 8
+[Info] packet received from client(368) / thread id : 1092 / msg : message from client 3 / count : 9
+[Info] packet sent to client(368) / thread id : 8476 / msg : message from client 3 / count : 9
+[Info] packet received from client(352) / thread id : 8476 / msg : message from client 7 / count : 10
+[Info] packet sent to client(352) / thread id : 1092 / msg : message from client 7 / count : 10
+[Info] packet received from client(336) / thread id : 1092 / msg : message from client 6 / count : 10
+[Info] packet sent to client(336) / thread id : 8476 / msg : message from client 6 / count : 10
+[Info] packet received from client(312) / thread id : 8476 / msg : message from client 5 / count : 9
+[Info] packet sent to client(312) / thread id : 1092 / msg : message from client 5 / count : 9
+[Info] packet received from client(372) / thread id : 1092 / msg : message from client 2 / count : 9
+[Info] packet sent to client(372) / thread id : 8476 / msg : message from client 2 / count : 9
+[Info] packet received from client(368) / thread id : 8476 / msg : message from client 3 / count : 10
+[Info] packet sent to client(368) / thread id : 1092 / msg : message from client 3 / count : 10
+[Info] packet received from client(312) / thread id : 1092 / msg : message from client 5 / count : 10
+[Info] packet sent to client(312) / thread id : 8476 / msg : message from client 5 / count : 10
+[Info] packet received from client(372) / thread id : 8476 / msg : message from client 2 / count : 10
+[Info] packet sent to client(372) / thread id : 1092 / msg : message from client 2 / count : 10
+[Info] IocpController::TerminateThreads()
+[Info] IocpThread::StartThread() - Terminated, thread(11220)
+[Info] IocpThread::StartThread() - Terminated, thread(4584)
+[Info] IocpThread::StartThread() - Terminated, thread(12020)
+[Info] IocpThread::StartThread() - Terminated, thread(8476)
+[Error] closed listen socket. (WSAEINTR)
+[Info] IocpThread::StartThread() - Terminated, thread(1092)
+[Info] NetworkController::CloseServer()
+[Info] IocpThread::StartThread() - Terminated, thread(864)
+[Info] IocpThread::StartThread() - Terminated, thread(8656)
